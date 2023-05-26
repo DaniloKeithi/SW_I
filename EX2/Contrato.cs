@@ -7,7 +7,7 @@ class Contrato
 
     public virtual string MostraDados(){
     
-    string infos = "Nome:" + this.Nome + "Email: " + this.Email + "Telefone"+ this.Telefone;
+    string infos = "Nome: " + this.Nome + "/" + " Email: " + this.Email + "/"  + " Telefone " + this.Telefone;
 
     return infos;
 

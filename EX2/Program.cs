@@ -13,15 +13,24 @@ class Program
         cf.Nome = Console.ReadLine();
         Console.WriteLine("Insira seu Email");
         cf.Email = Console.ReadLine();
-         Console.WriteLine("Insira seu Telefone");
+        Console.WriteLine("Insira seu Telefone");
         cf.Telefone = Console.ReadLine();
-          Console.WriteLine("Insira sua Idade");
+        Console.WriteLine("Insira sua Idade");
         cf.Idade = Console.ReadLine();
-          Console.WriteLine("Insira seu CPF");
+        Console.WriteLine("Insira seu CPF");
         cf.CPF = Console.ReadLine();
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine(cf.MostraDados());
 
-        Console.Clear();
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+       
+        
 
+ 
         
 
         Console.WriteLine("Contrato Juridica:");
@@ -36,6 +45,17 @@ class Program
         cj.IdadeE = Console.ReadLine();
           Console.WriteLine("Insira seu CNPJ");
         cj.CNPJ = Console.ReadLine();
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+
+
+
+        Console.WriteLine(cj.MostraDados());
+     
+        
+
+      
 
         
 

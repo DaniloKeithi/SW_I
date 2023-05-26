@@ -5,9 +5,9 @@ class ContratoPF: Contrato
  public string? Idade {get;set;}
 
     public override string MostraDados(){
-         string infos = "CPF" + CPF + "Idade" + Idade;
+         string infos = "/" + " CPF " + CPF + "/" + " Idade " + Idade + "/";
 
-        return infos;
+        return base.MostraDados() + infos;
     }
 
 }

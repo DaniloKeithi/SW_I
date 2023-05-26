@@ -6,9 +6,9 @@ class ContratoPJ: Contrato
 
     public override string MostraDados(){
 
-        string infos = "CNPJ" + CNPJ + "Idade Empresa" + IdadeE;
+        string infos = "/" + " CNPJ " + CNPJ + "/" + " Idade Empresa " + IdadeE + "/";
 
-        return infos;
+        return base.MostraDados() + infos;
     }
     
     
